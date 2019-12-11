@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="tf2_ros" type="static_transform_publisher" name="ninja_gripper_publisher" 
+    args="0 0 0.1 3.1416 0 3.1416 right_gripper ninja_gripper" />
+
+    <node pkg="ninja" type="ninja_node" name="ninja_node" output="screen">
+        <remap from="/joint_command" to="/robot/limb/left/joint_command" />
+    </node>
+</launch>

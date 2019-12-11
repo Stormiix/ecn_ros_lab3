@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>ninja</name>
+  <version>1.0.0</version>
+  <description>The ninja package</description>
+
+  <maintainer email="anas.mazouni@eleves.ec-nantes.fr">Anas Mazouni</maintainer>
+  <maintainer email="henrique.martinez-de-azevedo@eleves.ec-nantes.fr">Henrique Martinez de Azevedo</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>tf2_ros</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+  <export>
+  </export>
+</package>
